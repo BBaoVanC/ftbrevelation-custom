@@ -170,6 +170,33 @@ var fullTome = <akashictome:tome> .withTag(
 					"akashictome:definedMod": "xnet"
 				},
 				Damage: 0 as short
+			},
+
+			rftools: {
+				id: "rftools:rftools_manual",
+				Count: 1 as byte,
+				tag: {
+					"akashictome:definedMod": "rftools"
+				},
+				Damage: 0 as short
+			},
+
+			rftoolsdim: {
+				id: "rftoolsdim:rftoolsdim_manual",
+				Count: 1 as byte,
+				tag: {
+					"akashictome:definedMod": "rftoolsdim"
+				},
+				Damage: 0 as short
+			},
+
+			opencomputers: {
+				id: "opencomputers:tool",
+				Count: 1 as byte,
+				tag: {
+					"akashictome:definedMod": "opencomputers"
+				},
+				Damage: 4 as short
 			}
 		}
 	}
