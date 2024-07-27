@@ -300,43 +300,32 @@ recipes.addShaped(<railcraft:cart_cargo>,
 );
 
 #Fix Ticket Machine
-recipes.remove(<railcraft:cart_cargo>);
-recipes.addShaped(<railcraft:cart_cargo>,
-	[
-		[null, <minecraft:minecart>, null],
-		[null, <minecraft:chest>, null],
-		[null, null, null]
-	]
-);
-
-
-
-#Fix Computroncis
 recipes.remove(<computronics:ticket_machine>);
 recipes.addShaped(<computronics:ticket_machine>,
 	[
-		[<thermalfoundation:material:321>, <thermalfoundation:material:352>, <thermalfoundation:material:321>],
-		[<thermalfoundation:material:352>, <minecraft:dispenser>, <ore:paneGlassColorless>],
-		[<thermalfoundation:material:321>, <minecraft:piston>, <thermalfoundation:material:321>]
+		[<ore:plateTin>, <ore:plateSteel>, <ore:plateTin>],
+		[<ore:plateSteel>, <minecraft:dispenser>, <ore:paneGlassColorless>],
+		[<ore:plateTin>, <minecraft:piston>, <ore:plateTin>]
 	]
 );
 
+#Fix Computroncis
 recipes.remove(<computronics:locomotive_relay>);
-recipes.addShaped(<computronics:ticket_machine>,
+recipes.addShaped(<computronics:locomotive_relay>,
 	[
-		[<thermalfoundation:material:321>, <railcraft:circuit:1>, <thermalfoundation:material:321>],
+		[<ore:plateTin>, <railcraft:circuit:1>, <ore:plateTin>],
 		[<railcraft:rail:5>, <railcraft:circuit>, <railcraft:rail:5>],
-		[<thermalfoundation:material:321>, <railcraft:tool_charge_meter>, <thermalfoundation:material:321>]
+		[<ore:plateTin>, <railcraft:tool_charge_meter>, <ore:plateTin>]
 	]
 );
 
 
 recipes.remove(<computronics:digital_detector>);
-recipes.addShaped(<computronics:ticket_machine>,
+recipes.addShaped(<computronics:digital_detector>,
 	[
-		[<thermalfoundation:material:352>, <thermalfoundation:material:352>, <thermalfoundation:material:352>],
-		[<thermalfoundation:material:352>, <railcraft:detector:7>, <minecraft:light_weighted_pressure_plate>],
-		[<thermalfoundation:material:352>, <thermalfoundation:material:352>, <thermalfoundation:material:352>]
+		[<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>],
+		[<ore:plateSteel>, <railcraft:detector:7>, <minecraft:light_weighted_pressure_plate>],
+		[<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>]
 	]
 );
 
