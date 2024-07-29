@@ -36,9 +36,6 @@ recipes.addShapeless(<railcraft:nugget:8>*9,
 	[<railcraft:ingot:8>]
 );
 
-	#Unidict remove plate recipes
-mods.unidict.removalByKind.get("Crafting").remove("plate");
-
 	#Plate Fixs
 recipes.remove(<thermalfoundation:material:325>);
 recipes.remove(<thermalfoundation:material:324>);
